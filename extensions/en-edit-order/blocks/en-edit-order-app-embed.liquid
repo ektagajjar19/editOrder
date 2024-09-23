@@ -1,0 +1,17 @@
+{% if template contains 'order' %}
+
+  <div data-order-id="{{ order.id }}" class="enButtonsEO"></div>
+  <div data-order-id="{{ order.id }}" class="enTimeLimit"></div>
+  <div class="enPopupmodel popupmodel"></div>
+
+  <script src="{{ 'en_edit_order.js' | asset_url }}" defer></script>
+  <link rel="stylesheet" href="{{ 'en_edit_order.css' | asset_url }}" crossorigin></link>
+{% endif %}
+
+{% schema %}
+    {
+        "name": "Easy Edit Order ",
+        "target": "body",
+        "settings": []
+    }
+{% endschema %}
