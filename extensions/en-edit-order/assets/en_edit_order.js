@@ -13,7 +13,7 @@ function importAtHead(csrfToken) {
 const csrfToken = "myCsrfToken";
 importAtHead(csrfToken);
 
-const deskURL = "https://sister-conventional-surrey-jewish.trycloudflare.com/";
+const deskURL = "https://portion-labeled-indices-myers.trycloudflare.com/";
 const shopName = Shopify.shop;
 let timeMsg = null;
 var subtotal = 0;
